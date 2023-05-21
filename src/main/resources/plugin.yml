@@ -1,0 +1,11 @@
+name: KookVoiceChat
+version: '${project.version}'
+main: chordvers.lanstard.KookVoiceChat
+api-version: 1.16
+authors: [ LanStarD ]
+description: 让你通过KOOK在MC里实现与附近的人语音
+commands:
+  chordvers:
+    description: All command for server
+    permission: chordvers.all
+    usage: /chordvers help
